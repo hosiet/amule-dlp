@@ -25,7 +25,7 @@
 #
 
 AC_INIT([aMule], [2.4.0], [admin@amule.org])
-AM_INIT_AUTOMAKE([subdir-objects])
+AM_INIT_AUTOMAKE([subdir-objects foreign])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES])
 
 AC_PREREQ(2.59)
